@@ -1,0 +1,149 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2cbbaa84-a374-4150-834d-73ca88d110cf")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 107.95 67.31)
+		(size 27.94 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c4cb0e4-88dc-4739-b0af-c10870f83f61")
+		(property "Sheetname" "ES8388"
+			(at 107.95 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ES8388.kicad_sch"
+			(at 107.95 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stm32_audio"
+				(path "/2cbbaa84-a374-4150-834d-73ca88d110cf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 36.83)
+		(size 37.465 38.735)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "867f5a14-acc6-4b5d-8bdd-c13f88ba4fe0")
+		(property "Sheetname" "MCU"
+			(at 36.83 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_STM32G4.kicad_sch"
+			(at 36.83 76.1496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stm32_audio"
+				(path "/2cbbaa84-a374-4150-834d-73ca88d110cf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 109.855)
+		(size 29.21 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aab4b47e-3799-45e8-8a31-0bddcccd828e")
+		(property "Sheetname" "TLV320AIC3107"
+			(at 107.95 109.1434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TLV320AIC3107.kicad_sch"
+			(at 107.95 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 107.95 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Stm32_audio"
+				(path "/2cbbaa84-a374-4150-834d-73ca88d110cf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
