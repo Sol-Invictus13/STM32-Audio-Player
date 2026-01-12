@@ -1,0 +1,30 @@
+HW/Stm32_audio/Stm32_audio-backups/*
+SW/.metadata/*
+
+# Object and dependency files
+!*.mk
+!makefile
+!objects.mk
+!sources.mk
+!objects.list
+
+# Build artifacts
+*.map
+*.o
+*.d
+*.a
+*.dep
+*.su
+*.log
+*.bak
+*.tmp
+*.cyclo
+
+# Cube-generated backups
+*~
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
